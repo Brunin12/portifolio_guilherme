@@ -1,108 +1,107 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaThreads } from "react-icons/fa6";
 import {
   RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
-
 export const SKILL_DATA = [
   {
-    skill_name: "HTML",
-    image: "html.png",
+    skill_name: "Google Ads",
+    image: "google-ads.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "Facebook Ads",
+    image: "facebook-ads.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "Instagram Ads",
+    image: "instagram-ads.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React",
-    image: "react.png",
+    skill_name: "TikTok Ads",
+    image: "tiktok-ads.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
+    skill_name: "LinkedIn Ads",
+    image: "linkedin-ads.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React Query",
-    image: "reactquery.png",
+    skill_name: "Google Analytics",
+    image: "google-analytics.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "TypeScript",
-    image: "ts.png",
+    skill_name: "Facebook Pixel",
+    image: "facebook-pixel.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Next.js 14",
-    image: "next.png",
+    skill_name: "Google Tag Manager",
+    image: "google-tag-manager.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Framer Motion",
-    image: "framer.png",
+    skill_name: "SEO",
+    image: "seo.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Stripe",
-    image: "stripe.png",
+    skill_name: "Email Marketing",
+    image: "email-marketing.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Node.js",
-    image: "node.png",
+    skill_name: "Content Marketing",
+    image: "content-marketing.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    skill_name: "Remarketing",
+    image: "remarketing.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Análise de Dados",
+    image: "data-analysis.png",
+    width: 80,
+    height: 80,
   },
 ] as const;
 
 export const SOCIALS = [
   {
+    name: "Whatsapp",
+    icon: FaWhatsapp,
+    link: "http://wa.me/+557581334223",
+  },
+  {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/oguilherme.vilela/",
   },
   {
     name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    icon: FaThreads,
+    link: "https://www.threads.com/@oguilherme.vilela",
   },
 ] as const;
 
@@ -256,34 +255,33 @@ export const OTHER_SKILL = [
     height: 60,
   },
 ] as const;
-
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Campanha de Tráfego Google Ads",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "Projeto focado na criação e otimização de campanhas de Google Ads para maximizar conversões e ROI. Inclui segmentação precisa, análise de dados e testes A/B para garantir alta performance.",
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://www.instagram.com/oguilherme.vilela/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Estratégia de Remarketing Multicanal",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Desenvolvimento de estratégia integrada de remarketing para Facebook, Instagram e Google, aumentando a retenção de clientes e impulsionando as vendas com anúncios personalizados e automação.",
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://www.instagram.com/oguilherme.vilela/",
   },
   {
-    title: "Space Themed Website",
+    title: "Landing Page para Conversão",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "Criação de landing page otimizada para conversão, focada em captação de leads e vendas. Design clean, copy persuasiva e integração com ferramentas de análise e CRM.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://www.instagram.com/oguilherme.vilela/",
   },
 ] as const;
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Comunidade",
     data: [
       {
         name: "YouTube",
@@ -303,42 +301,42 @@ export const FOOTER_DATA = [
     ],
   },
   {
-    title: "Social Media",
+    title: "Redes Sociais",
     data: [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        link: "https://www.instagram.com/oguilherme.vilela/",
       },
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
         link: "https://linkedin.com",
       },
+      {
+        name: "Twitter",
+        icon: FaThreads,
+        link: "https://twitter.com",
+      },
     ],
   },
   {
-    title: "About",
+    title: "Sobre mim",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Entre em contato",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://wa.me/+557581334223",
       },
       {
-        name: "Learning about me",
+        name: "Saiba mais sobre mim",
         icon: null,
-        link: "https://example.com",
+        link: "https://www.instagram.com/oguilherme.vilela/",
       },
       {
-        name: "Contact Me",
+        name: "Torne-se um patrocinador",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "https://www.instagram.com/oguilherme.vilela/",
       },
     ],
   },
@@ -346,19 +344,15 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
+    title: "Sobre Mim",
     link: "#about-me",
   },
   {
-    title: "Skills",
+    title: "Habilidades",
     link: "#skills",
   },
   {
-    title: "Projects",
+    title: "Projetos",
     link: "#projects",
   },
 ] as const;
-
-export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
-};

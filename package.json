@@ -1,5 +1,5 @@
 {
-  "name": "space-portfolio",
+  "name": "guilherme",
   "version": "1.0.1",
   "private": true,
   "scripts": {
@@ -9,71 +9,48 @@
     "lint": "next lint"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Bruno Parreira",
+    "email": "brunoparreira77@gmail.com",
+    "url": "https://github.com/brunin12"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "Portfólio profissional focado em marketing e tráfego pago.",
   "keywords": [
-    "reactjs",
+    "portifolio",
+    "marketing",
+    "trafego pago",
+    "gestor de trafego",
+    "profissional",
+    "contratar",
+    "site pessoal",
+    "landing page",
+    "frontend",
     "nextjs",
-    "vercel",
     "react",
-    "space-portfolio",
-    "portfolio",
-    "react-icons",
-    "cn",
-    "clsx",
-    "3d-portfolio",
-    "3d-website",
-    "sonner",
-    "framer-motion",
-    "motion",
-    "animation",
-    "heroicons",
-    "next-themes",
-    "postcss",
-    "prettier",
-    "react-dom",
-    "tailwindcss",
-    "tailwindcss-animate",
     "ui/ux",
-    "js",
-    "javascript",
-    "typescript",
-    "eslint",
-    "html",
-    "css"
+    "developer",
+    "negócios",
+    "serviços online",
+    "vitrine digital"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/brunin12/guilherme"
   },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
+  "homepage": "https://github.com/brunin12/guilherme#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/brunin12/guilherme/issues",
+    "email": "brunoparreira77@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
     "clsx": "^2.1.0",
     "framer-motion": "^10.17.12",
-    "next": "14.2.15",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^14.2.30",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.5.3",
     "tailwind-merge": "^2.2.0",
@@ -85,7 +62,7 @@
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "14.2.30",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
